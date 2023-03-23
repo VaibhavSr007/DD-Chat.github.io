@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>DD Chat</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="title">
+                <img src="/icons/logo.png" width="60px" alt="">
+                <h1>Dreamers Chat</h1>
+            </div>
+            <button id="btn" type="button" onclick="showit()">
+                <img src="/icons/hamburger.png" width="40px" alt="">
+            </button>
+        </header>
+
+        <div class="container">
+            <div class="users-window">
+                <div class="users-head">
+                    <h3>People</h3>
+                    <h4 class="users-count">0</h4>
+                </div>
+                <div class="users-list">
+                    <!-- <p>Ram</p>
+                    <p>Krishna</p>
+                    <p>Kalki</p> -->
+                </div>
+            </div>
+
+            <div class="chat-window">
+                <div class="chats">
+                    <!-- <div class="user-join">
+                        <p><b>Ram joined the chat</b></p>
+                    </div>
+                    <div class="message incoming">
+                        <h5>Ram</h5>
+                        <p>Hello Krishna</p>
+                    </div>
+                    <div class="message outgoing">
+                        <h5>Kalki</h5>
+                        <p>Welcome Ram</p>
+                    </div> -->
+                </div>
+                <div class="users-input">
+                    <input id="user-msg" type="text" placeholder="Type your message...">
+                    <button id="user-send" type="button">SEND</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+       var user_window = document.querySelector(".users-window");
+        function showit(){
+            if(user_window.style.display=="block"){
+                user_window.style.display="none"; 
+            }
+            else{
+                user_window.style.display="block";
+            }
+        }
+    </script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+</body>
+
+</html>
