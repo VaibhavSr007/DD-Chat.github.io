@@ -1,7 +1,7 @@
 
 # Dreamers Chat
 
-Welcome to the Defense Dreamers WebChat repository! This project aims to create a platform where defense aspirants can come together, chat, clear doubts, and provide guidance to each other in building a successful career in defense services. The website facilitates real-time communication, allowing multiple users to join and participate in the chat simultaneously. It includes features such as alerting users about new arrivals and exits, listing all present users, and displaying a count of total users in the chat.
+Welcome to the Defense Dreamers WebChat repository! This project aims to create a platform where defense aspirants can come together, chat, clear doubts, and provide guidance to each other in building a successful career in defense services. Actually this WebChat service is addtional feature of a complete project "Defence-Dreamers". The website facilitates real-time communication, allowing multiple users to join and participate in the chat simultaneously. It includes features such as alerting users about new arrivals and exits, listing all present users, and displaying a count of total users in the chat.
 
 
 ## Features
@@ -61,5 +61,6 @@ Once the project is running, open your web browser and navigate to the appropria
 
 Demo Video Link
 
+This demo video also contains the demonstration of its parent project "Defence-Dreamers".
 https://youtu.be/xknSwJBy4c8
 
