@@ -59,8 +59,7 @@ Once the project is running, open your web browser and navigate to the appropria
 ## Demo
 
 
-
 Demo Video Link
 
-https://github.com/VaibhavSr007/static/1.png?raw=true
+https://youtu.be/xknSwJBy4c8
 
